@@ -79,7 +79,8 @@ nav > p > a{
 }
 .pano{
     flex-shrink: 1;
-    max-width: 75vw;
+    flex-basis: 80vw;
+    max-height: max-content;
 }
 .flexphotos{
     height: 100%;
