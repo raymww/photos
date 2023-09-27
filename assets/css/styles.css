@@ -60,7 +60,7 @@ nav > p > a{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 7vh;
+    gap: 10vh;
     margin-top: 5vh;
     margin-bottom: 5vh;
     margin-left: 23vw;
@@ -69,18 +69,16 @@ nav > p > a{
 .photo-container{
     display: inline-flex;
     flex-direction: column;
+    justify-content: stretch;
     align-items: center;
-    gap: 7vh;
+    gap: 10vh;
 }
 .photo{
-    flex-shrink: 1;
-    max-height: 80vh;
-    max-width: 30vw;
+    width: 30vw;
 }
 .pano{
     flex-shrink: 1;
-    flex-basis: 80vw;
-    max-height: max-content;
+    width: 70vw;
 }
 .flexphotos{
     height: 100%;
